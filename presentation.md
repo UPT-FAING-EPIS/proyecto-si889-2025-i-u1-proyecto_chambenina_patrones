@@ -118,7 +118,7 @@ description: Presentación del proyecto ChargePass - App de gestión segura de c
 
 ## Diagrama de Componentes
 
-![width:600](https://github.com/user-attachments/assets/c30abac8-6903-4a09-977a-6df9a6d35949)
+![width:800](https://github.com/user-attachments/assets/c30abac8-6903-4a09-977a-6df9a6d35949)
 
 ---
 
