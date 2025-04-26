@@ -64,7 +64,7 @@ description: Presentación del proyecto ChargePass - App de gestión segura de c
 
 ## Diagrama de Casos de Uso: Iniciar Sesión
 
-![width:600](https://github.com/user-attachments/assets/c57b2e90-2e57-49ee-be79-4469aea216c5)
+![width:400](https://github.com/user-attachments/assets/c57b2e90-2e57-49ee-be79-4469aea216c5)
 
 ---
 
