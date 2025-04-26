@@ -18,6 +18,11 @@ Todo esto con el objetivo de proteger la identidad digital de los usuarios, evit
 
 ## Diagrama de Casos de Uso
 
+### Reporte de Infracost
+
+![alt text](image.png)
+
+
 Diagrama de Caso de Usos Iniciar Sesión:
 
 ![imagen](https://github.com/user-attachments/assets/c57b2e90-2e57-49ee-be79-4469aea216c5)
