@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.692d9f3c-7cb7-4c55-8573-51c78ebd3a81.001.png)
+﻿![](Aspose.Words.70b1c0b4-5a96-4920-a2c1-601e6fd6611e.001.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA** 
 
@@ -55,8 +55,8 @@ Integrantes:
 [6.1. Justificación de la Inversión  23](#_page15_x85.04_y64.70) 
 
 1. Beneficios del Proyecto  24 
-1. [Criterios de Inversión  25](#_page15_x85.04_y331.27) Cuadro de Gastos del Proyecto  25 [Cuadro de Inversión y Beneficios  26](#_page16_x85.04_y279.61) 
-7. [**Conclusiones  28](#_page18_x85.04_y76.43) **[BIBLIOGRAFÍA  28](#_page18_x85.04_y454.53)** 
+1. [Criterios de Inversión  25](#_page15_x85.04_y331.27) Cuadro de Gastos del Proyecto  25 [Cuadro de Inversión y Beneficios  26](#_page16_x85.04_y254.11) 
+7. [**Conclusiones  28](#_page18_x85.04_y48.83) **[BIBLIOGRAFÍA  28](#_page18_x85.04_y420.94)** 
 
 **Informe de Factibilidad** 
 
@@ -207,6 +207,15 @@ La  factibilidad  técnica  es  fundamental  para  asegurar  que  el  desarrollo
 
    Teniendo  en  cuenta  que  los  equipos  cuentan  con  un  sistema operativo libre y gratuito, sin necesidad de costos adicionales en el licenciamiento, se aclara que los costos en la licencia serán de cero. 
 
+
+
+|**Costo Infraestructura - Infracost** |||||
+| - | :- | :- | :- | :- |
+|**Descripción:** |Resumen de costos de infraestructura obtenido del reporte de Infracost ||||
+|**Material** |**Mes 1** |**Mes 2** |**Mes 3** |**Total** |
+|**Infraestructura** |S/. 0 |S/. 0 |S/. 0 |S/. 0 |
+|**Total** ||||S/.0 |
+
 2. **Costo<a name="_page10_x85.04_y48.83"></a> Hardware**
 
 Considerando que los equipos cuentan con el software necesario y pertinente sin necesidad de costos adicionales o de licenciamiento, se puede decir que los costos asociados al hardware son cero.
@@ -289,12 +298,12 @@ Tabla 13:  Apreciamos el cuadro de Costos del Ambiente*
 | - | :- |
 |**Descripción:** |Resumen  de  los  costos  totales asociados al desarrollo del sistema. |
 |**Servicio** |**Costo** |
-|Costo de  Hardware |S/. 460 |
+|Costo de  Software |S/. 0 |
 |Costos Generales |S/. 3400 |
 |Costos operativos |S/. 1200 |
 |Costos del ambiente |S/. 420 |
 |Costo del personal |S/. 7500 |
-|Total |S/. 12980 |
+|Total |S/. 12540 |
 
 *Fuente: Elaboración propia del equipo de trabajo* 
 
@@ -408,10 +417,9 @@ Estos criterios garantizan que el proyecto cumpla con los requisitos financieros
 |Hosting Web |25 |1 |25 |
 |Ingeniero de software |2500 |1 |2500 |
 | - | - | - | - |
-|Operador de mantenimiento |2500 |1 |2500 |
-|Base de datos en la nube |150 |1 |150 |
-||||5175 |
-|Total de egresos ||x 12 meses |62100 |
+|Infraestructura |0 |1 |0 |
+||||2525 |
+|Total de egresos ||x 12 meses |30300 |
 
 *Fuente: Elaboración propia del equipo de trabajo* 
 
@@ -419,17 +427,17 @@ Estos criterios garantizan que el proyecto cumpla con los requisitos financieros
 
 **Ingreso anual estimado del Proyecto:** 
 
-<a name="_page16_x85.04_y279.61"></a>*Tabla 17: Cuadro de Inversión y Beneficios*
+<a name="_page16_x85.04_y254.11"></a>*Tabla 17: Cuadro de Inversión y Beneficios*
 
 
 
 |**Cuadro de Inversión y Beneficios** |||||
 | - | :- | :- | :- | :- |
-|**Inversión:   S/. 13350**             |**PPTO** |**DEL PY**|**Tasa Des**|**cuento: 9%** |
+|**Inversión:   S/. 12540**             |**PPTO** |**DEL PY**|**Tasa Des**|**cuento: 9%** |
 |**Ingreso** |**Mensual** |**Anual** |||
-|Reducción de costos operativos (30%) |5000|60000|||
-|Ahorro en consumo de recursos (20%) |2500|30000|||
-|**Ingreso total anual** ||90000|||
+|Reducción de costos operativos (30%) |2000|24000|||
+|Ahorro en consumo de recursos (20%) |1500|18000|||
+|**Ingreso total anual** ||48000|||
 
 *Fuente: Elaboración propia del equipo de trabajo 
 Tabla 17:  Apreciamos el cuadro de Inversiones y Beneficios.* 
@@ -443,49 +451,49 @@ Tabla 17:  Apreciamos el cuadro de Inversiones y Beneficios.*
 |**Cuadro de Flujo de Caja** ||||
 | - | :- | :- | :- |
 |**Periodo** |**Ingreso** |**Egreso** |**flujo efectivo** |
-|0|||-12980|
-|1|90000|62100|27900|
-|2|90000|62100|27900|
-|3|90000|62100|27900|
+|0|||-12540|
+|1|42000|30300|11700|
+|2|42000|30300|11700|
+|3|42000|30300|11700|
 
 *Fuente: Elaboración propia del equipo de trabajo* 
 
-*Tabla 18:  Apreciamos de flujo de caja del Proyecto,se adjunta los detalles mas abajo el anexo 01.* 
+*Tabla 18:  Apreciamos de flujo de caja del Proyecto,se adjunta los detalles más abajo el anexo 01.* 
 
-**Van:** S/ 57,643.12
+**Van:** S/ 17.076,15
 
-**TIR**: 208%
+**TIR**: 76%
 
-**Índice de Rentabilidad(B/C)**: S/. 5.44
+**Índice de Rentabilidad(B/C)**: S/. 2.36
 
 1. **Relación Beneficio/Costo (B/C)** 
-- En base a los estudios de costos realizados, obtuvimos: **B/C =** S/. 5.44
+- En base a los estudios de costos realizados, obtuvimos: **B/C =** S/. 2.36
 
-  significa que por cada sol invertido, se generarán aproximadamente 5.44 soles de beneficio. Esto refuerza la idea de que el proyecto es financieramente factible
+  significa que por cada sol invertido, se generarán aproximadamente 2.36 soles de beneficio. Esto refuerza la idea de que el proyecto es financieramente factible
 
 2. **Valor Actual Neto (VAN)** 
 - Para este caso, los resultados del análisis son: 
 
-VAN  >  0,  Esto quiere decir que el valor actualizado de los futuros ingresos y desembolsos de inversión, a la tasa de 
+VAN  >  0,  Esto quiere decir que el valor actualizado de los 
 
-descuento elegida, generará utilidades para la empresa. 
+futuros ingresos y desembolsos de inversión, a la tasa de descuento elegida, generará utilidades para la empresa. 
 
-**Van =** S/ 57,643.12
+**Van =** S/ 17.076,15
 
 3. **Tasa Interna de Retorno (TIR)** 
 
    En el presente sistema utilizamos la TIR como la mejor herramienta de cálculo porque nos da mayor seguridad para la toma de decisiones favorables. 
 
-   El resultado obtenido es: Tasa de Descuento del 208%
+   El resultado obtenido es: Tasa de Descuento del 76% 
 
-7. **Conclusiones<a name="_page18_x85.04_y76.43"></a>** 
+7. **Conclusiones<a name="_page18_x85.04_y48.83"></a>** 
 - El  proyecto  ChargePass  ha  demostrado  ser  viable  técnica,  económica  y legalmente,  representando  una  solución  óptima  para  la  gestión  segura  de contraseñas en el entorno digital actual. 
 - La  inversión  estimada  en  el  desarrollo  e  implementación  está  plenamente justificada por los beneficios en seguridad digital que proporcionará a usuarios individuales y organizaciones. 
 - ChargePass  mejorará  sustancialmente  la  protección  de  datos  personales, fomentará  buenas  prácticas  de ciberseguridad y fortalecerá la confianza en transacciones digitales. 
 - Los riesgos identificados durante el análisis cuentan con planes de mitigación efectivos,  garantizando  una  implementación  exitosa  y  un  funcionamiento continuo seguro y estable. 
 - Este  proyecto  no  solo  resuelve  un  problema  tecnológico  actual,  sino  que contribuye a crear una cultura de seguridad digital en la sociedad peruana. 
 
-<a name="_page18_x85.04_y454.53"></a>**BIBLIOGRAFÍA** 
+<a name="_page18_x85.04_y420.94"></a>**BIBLIOGRAFÍA** 
 
 Boyd, C. E. (2020). Water quality: An introduction (3rd ed.). Springer. Cotruvo, J. A. (2018). Water, Sanitation, and Hygiene. Elsevier. 
 
