@@ -18,27 +18,31 @@ Todo esto con el objetivo de proteger la identidad digital de los usuarios, evit
 
 ## Diagrama de Casos de Uso
 
-Diagrama de Caso de Usos Iniciar Sesión
+Diagrama de Caso de Usos Iniciar Sesión:
 
 ![imagen](https://github.com/user-attachments/assets/c57b2e90-2e57-49ee-be79-4469aea216c5)
 
-Registro de Usuario
+Registro de Usuario:
 
 ![imagen](https://github.com/user-attachments/assets/6aaedd05-e416-45ce-acf1-612d73a330cf)
 
-Generación Automática de Claves - Generar o guardar Contraseña
+Generación Automática de Claves - Generar o guardar Contraseña:
 
 ![imagen](https://github.com/user-attachments/assets/cfbed588-a714-4d77-908a-3aedf842e1a2)
 
-Generación Automática de Claves - Generar o guardar Contraseña
+Generación Automática de Claves - Generar o guardar Contraseña:
 
 ![imagen](https://github.com/user-attachments/assets/376f3be5-3cc8-4e8e-a6a5-fe0dcbdae0e5)
 
-Diagrama de Subsistemas
+Diagrama de Base de Datos
+
+![Sin título](https://github.com/user-attachments/assets/2d825ea1-f8f5-4c02-aedd-6dbb1b151ffb)
+
+Diagrama de Subsistemas:
 
 ![imagen](https://github.com/user-attachments/assets/d541121b-9fc0-4922-9042-420517727d05)
 
-Arquitectura lógica del sistema ChargePass a nivel de clases
+Arquitectura lógica del sistema ChargePass a nivel de clases:
 
 ![fLZRRXit47tVhrYa3ssH6h2J1eYDE8siIo90bWL9TXuDQdUy8hHBgYJNYXha8uf-KdwiGovtHUv52jeNGvev7CxbS6Ra3r8HeV8i3UI6iYqH90kZb4ZPKqhGLQvW776se7z1U5w7Z3XJKv91-A8dA4bVjEdDoOjNhIgrJo5SyJGEWf_3w-lhi7yt7Oq_tizx_V7tVwRXO1WEnelXzx](https://github.com/user-attachments/assets/ab028cd1-5208-4444-b023-0c15b32e9e98)
 
@@ -46,9 +50,11 @@ Diagrama de Secuencia : Generacion y guardado de Contraseña
 
 ![imagen](https://github.com/user-attachments/assets/7b835bb3-4b5b-4d8e-9b14-9f88fc7d5d38)
 
-Diagrama de arquitectura del Proyecto
+Diagrama de arquitectura del Proyecto:
 
 ![imagen](https://github.com/user-attachments/assets/6082cedf-8f56-4711-911a-6c08c7612282)
 
+Diagrama de Despliegue:
 
+![dPTTJzim58RlyoiiTh6hIL3s0HAhI5DtgzIr7GKq2KsLIKvJgwuTEGwCJVllSzAaILCx2GC9AVRZys4VdzTSnuf8bMoPynPzrZy8Bsx7andwWgVunfraOqwyeJmYacoHBxQHuC3LGhqmG19yHNZ8e894nD-G4Ef0XOZN913Fb8T8oQIwL8g41xwG72JgdJgra8OOURDlyzaKJs_nmX](https://github.com/user-attachments/assets/c30abac8-6903-4a09-977a-6df9a6d35949)
 
