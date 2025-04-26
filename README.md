@@ -54,7 +54,7 @@ Diagrama de arquitectura del Proyecto:
 
 ![imagen](https://github.com/user-attachments/assets/6082cedf-8f56-4711-911a-6c08c7612282)
 
-Diagrama de Despliegue:
+Diagrama de Componentes:
 
 ![dPTTJzim58RlyoiiTh6hIL3s0HAhI5DtgzIr7GKq2KsLIKvJgwuTEGwCJVllSzAaILCx2GC9AVRZys4VdzTSnuf8bMoPynPzrZy8Bsx7andwWgVunfraOqwyeJmYacoHBxQHuC3LGhqmG19yHNZ8e894nD-G4Ef0XOZN913Fb8T8oQIwL8g41xwG72JgdJgra8OOURDlyzaKJs_nmX](https://github.com/user-attachments/assets/c30abac8-6903-4a09-977a-6df9a6d35949)
 
