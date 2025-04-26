@@ -58,7 +58,7 @@ description: Presentación del proyecto ChargePass - App de gestión segura de c
 
 # Reporte de Infracost-Terraform
 
-![image](https://github.com/user-attachments/assets/04882d98-a4f1-46c9-a9b0-5130cc7b433d)
+![width:600](https://github.com/user-attachments/assets/04882d98-a4f1-46c9-a9b0-5130cc7b433d)
 
 ---
 
