@@ -30,9 +30,13 @@ jobs:
         VERSION=${LAST_TAG#v}
         IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
         
-        # Contar líneas cambiadas (sumando agregadas + eliminadas)
+        # Contar líneas cambiadas
         CHANGED_LINES=$(git diff --numstat $LAST_TAG HEAD -- 'Chargepassv4/**' | awk '{added += $1; deleted += $2} END {print added + deleted}')
         echo "Líneas cambiadas: $CHANGED_LINES"
+
+        # Contar commits que afectaron Chargepassv4 desde el último tag
+        COMMIT_COUNT=$(git log $LAST_TAG..HEAD --pretty=format:"%H" -- 'Chargepassv4/**' | wc -l)
+        echo "Commits detectados desde último tag: $COMMIT_COUNT"
 
         # Lógica de incremento
         if [ "$CHANGED_LINES" -ge 1 ] && [ "$CHANGED_LINES" -le 10 ]; then
@@ -44,9 +48,12 @@ jobs:
           MAJOR=$((MAJOR+1))
           MINOR=0
           PATCH=0
+        elif [ "$CHANGED_LINES" -eq 0 ] && [ "$COMMIT_COUNT" -ge 1 ]; then
+          echo "No hay cambios de líneas, pero sí commits. Incrementando patch."
+          PATCH=$((PATCH+1))
         else
-          echo "No hay suficientes cambios para generar un nuevo release."
-          exit 1
+          echo "No hay suficientes cambios ni commits relevantes para generar un nuevo release."
+          exit 0
         fi
 
         NEW_TAG="v$MAJOR.$MINOR.$PATCH"
