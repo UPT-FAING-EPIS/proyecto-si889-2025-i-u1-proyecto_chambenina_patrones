@@ -31,11 +31,11 @@ jobs:
         IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
         
         # Contar líneas cambiadas
-        CHANGED_LINES=$(git diff --numstat $LAST_TAG HEAD -- 'Chargepassv4/**' | awk '{added += $1; deleted += $2} END {print added + deleted}')
+        CHANGED_LINES=$(git diff --numstat $LAST_TAG HEAD -- 'chargepassv4/**' | awk '{added += $1; deleted += $2} END {print added + deleted}')
         echo "Líneas cambiadas: $CHANGED_LINES"
 
-        # Contar commits que afectaron Chargepassv4 desde el último tag
-        COMMIT_COUNT=$(git log $LAST_TAG..HEAD --pretty=format:"%H" -- 'Chargepassv4/**' | wc -l)
+        # Contar commits que afectaron chargepassv4 desde el último tag
+        COMMIT_COUNT=$(git log $LAST_TAG..HEAD --pretty=format:"%H" -- 'chargepassv4/**' | wc -l)
         echo "Commits detectados desde último tag: $COMMIT_COUNT"
 
         # Lógica de incremento
@@ -68,14 +68,14 @@ jobs:
 
     - name: Compress Flutter project
       run: |
-        cd Chargepassv4
-        zip -r ../Chargepassv4-${{ steps.version.outputs.new_tag }}.zip .
+        cd chargepassv4
+        zip -r ../chargepassv4-${{ steps.version.outputs.new_tag }}.zip .
 
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
       with:
         tag_name: ${{ steps.version.outputs.new_tag }}
         name: Release ${{ steps.version.outputs.new_tag }}
-        files: Chargepassv4-${{ steps.version.outputs.new_tag }}.zip
+        files: chargepassv4-${{ steps.version.outputs.new_tag }}.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
