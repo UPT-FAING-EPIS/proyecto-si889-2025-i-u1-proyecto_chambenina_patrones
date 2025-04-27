@@ -3,7 +3,7 @@ name: Auto Release Flutter App
 on:
   push:
     paths:
-      - 'chargepassv4/**'
+      - 'Chargepassv4/**'
 
 jobs:
   release:
@@ -26,16 +26,16 @@ jobs:
         LAST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)
         echo "Último tag encontrado: $LAST_TAG"
 
-        # Obtener partes
+        # Obtener partes del último tag
         VERSION=${LAST_TAG#v}
         IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
         
-        # Contar líneas cambiadas
+        # Contar líneas cambiadas (sumando agregadas + eliminadas)
         CHANGED_LINES=$(git diff --numstat $LAST_TAG HEAD -- 'Chargepassv4/**' | awk '{added += $1; deleted += $2} END {print added + deleted}')
         echo "Líneas cambiadas: $CHANGED_LINES"
 
         # Lógica de incremento
-        if [ "$CHANGED_LINES" -gt 1 ] && [ "$CHANGED_LINES" -le 10 ]; then
+        if [ "$CHANGED_LINES" -ge 1 ] && [ "$CHANGED_LINES" -le 10 ]; then
           PATCH=$((PATCH+1))
         elif [ "$CHANGED_LINES" -gt 10 ] && [ "$CHANGED_LINES" -le 50 ]; then
           MINOR=$((MINOR+1))
