@@ -17,6 +17,8 @@ import 'package:chargepassv4/providers/theme_provider.dart';
 //prueba de release
 //prueba de release
 //prueba de release
+//prueba de release
+//prueba de release
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
