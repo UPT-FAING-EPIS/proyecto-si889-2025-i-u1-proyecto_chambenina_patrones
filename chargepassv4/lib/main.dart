@@ -6,7 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:chargepassv4/services/firebase_auth_service.dart';
 import 'package:chargepassv4/providers/theme_provider.dart';
-
+// prueba de release
+//prueba de release
+//prueba de release
+//prueba de release
+//prueba de release
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
