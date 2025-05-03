@@ -24,6 +24,25 @@ https://github.com/tomasyoel/chargepasscheck
 
 https://www.youtube.com/watch?v=pqg5qtxOhXs
 
+## Comandos de Despliegue y Clonacion de Repositorio Github👨‍💻
+
+1.- Abrir terminal CMD
+
+2.- git glone https://github.com/UPT-FAING-EPIS/proyecto-si889-2025-i-u1-proyecto_chambenina_patrones.git
+
+3.- cd charguepassv4
+
+4.- code .        (se abrira el visual studio)
+
+5.- Ctrl+ñ  (para abrir la terminal de visual studio y en la terminal escribir el comando a continuacion)
+
+6.- flutter clean
+
+7.- flutter pub get (para recolectar las librerias)
+
+8.- flutter build apk  (para sacar el archivo .apk para probarlo)
+
+
 ## Diagrama de Casos de Uso
 
 ### Reporte de Infracost
